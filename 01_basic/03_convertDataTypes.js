@@ -17,3 +17,32 @@ console.log(value);
 let str1="Ajit"
 let str2="Tiwari"
 console.log(str1+str2);
+
+//comapre
+console.log("2">=2);
+console.log(null>2);
+// strict change
+console.log("2"===2);
+
+// symbol
+const id=Symbol('123')
+const anotherId=Symbol('123')
+console.log(id==anotherId);
+const heros=["Ajit","TOny","Hulk"];
+//object
+let myobj={
+    Name:"AJit",
+    Age:22,
+}
+//function
+    const myFunction=function(){
+        console.log("Hello world");
+
+    }
+    console.log(typeof myobj)
+    console.log(typeof myFunction)
+    console.log(typeof Symbol)
+
+
+
+
