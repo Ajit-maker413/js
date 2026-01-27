@@ -8,3 +8,12 @@ console.log(typeof score);
 let someNumber=33
 let valueInNumber=String(someNumber)
 console.log(typeof valueInNumber);
+
+let value =3
+value =-value
+console.log(value);
+
+// string concat
+let str1="Ajit"
+let str2="Tiwari"
+console.log(str1+str2);
