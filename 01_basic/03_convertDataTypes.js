@@ -43,6 +43,17 @@ let myobj={
     console.log(typeof myFunction)
     console.log(typeof Symbol)
 
+    // memory stack and heap
+
+    let userone={
+        email:"ajit@",
+        upi:"1234asd",
+    }
+    console.log(userone);
+    let usertwo=userone
+    usertwo.email="Ajit@gami.com "
+    console.log(userone);
+
 
 
 
